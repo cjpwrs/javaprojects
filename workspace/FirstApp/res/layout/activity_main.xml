@@ -1,0 +1,71 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.CJ.firstapp.MainActivity"
+    tools:ignore="MergeRootFrame" 
+    android:background="#0000FF">
+
+    <EditText
+        android:id="@+id/txtcounter"
+        android:layout_width="129dp"
+        android:layout_height="64dp"
+        android:layout_x="52dp"
+        android:layout_y="251dp"
+        android:background="#FBFBEF"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        android:textSize="35sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="116dp"
+        android:layout_height="60dp"
+        android:layout_x="125dp"
+        android:layout_y="411dp"
+        android:background="#D8D8D8"
+        android:text="Reset"
+        android:textSize="35sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnminus"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_x="233dp"
+        android:layout_y="288dp"
+        android:background="#D8D8D8"
+        android:text="-"
+        android:textSize="60sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_x="233dp"
+        android:layout_y="181dp"
+        android:text="+"
+        android:textSize="40sp"
+        android:background="#D8D8D8" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="223dp"
+        android:layout_height="168dp"
+        android:layout_x="66dp"
+        android:layout_y="3dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="Sacrament Meeting Counter"
+        android:textColor="#FBFBEF"
+        android:textSize="40sp"
+        tools:ignore="TextFields,HardcodedText" >
+
+        <requestFocus />
+    </EditText>
+
+</AbsoluteLayout>

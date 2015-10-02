@@ -1,0 +1,71 @@
+import java.util.*;
+
+class game
+{
+	protected int pointsfor;
+	protected int pointsagainst;
+	protected double calcpct;
+	protected String sport;
+	
+	void setpoints(int points)
+	{
+		this.pointsfor += points;
+	}
+	void calcpct(int pointsfor, int pointsagainst)
+	{
+		this.calcpct = pointsfor/(pointsfor+pointsagainst);
+	}
+	int getpointsfor()
+	{
+		return this.pointsfor;
+	}
+	int getpointsagainst()
+	{
+		return this.pointsagainst;
+	}
+	double getcalcpct()
+	{
+		return this.calcpct;
+	}
+	String getname()
+	{
+		return this.sport;
+	}
+	game(String name)
+	{
+		
+	}
+}
+class basketball extends game
+{
+
+	basketball(String name) 
+	{
+		super(name);
+	}
+	
+}
+class midtermpractice{
+	public static void main(String[] args)
+	{
+		String name;
+		
+		basketball bask[] = new basketball[3];
+		Scanner oscan = new Scanner(System.in);
+		
+		
+		
+		for(int icount = 0; icount<bask.length; icount++)
+		{
+			System.out.println("Name");
+			name = oscan.nextLine();
+			bask[icount] = new basketball(name);
+			
+		}
+		for(int icount = 0; icount<bask.length; icount++)
+		{
+			
+			System.out.println(bask[0].getname());
+		}
+	}
+}

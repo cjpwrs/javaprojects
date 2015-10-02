@@ -1,0 +1,17 @@
+import java.util.Random;
+import java.util.Scanner;
+
+
+public class finalpractice 
+{
+
+	public static void main(String[] args) 
+	{
+		int points;
+		Random rdmgen = new Random();
+		
+		points = rdmgen.nextInt(100);
+		System.out.println(points);
+	}
+
+}

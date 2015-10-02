@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+
+//Complete the method called AddItUp for the class called Summer. The class has three int instance variables called Account1, Account2, and TotalAccounts. Write the statement for the following method that assigns the values of the parameters to the instance variables and then adds the instance variables Account1 and Account2 and assigns their value to the instance variable TotalAccounts
+
+
+ 
+ 
+public class finalprobs
+{
+   public static void main(String[] args)
+   {
+  
+	   
+	    
+			   
+	   int iCount = 0;
+	   
+	   while (iCount <= 3);
+	   {
+	      System.out.println("That’s a fact Jack!");
+	      iCount++;
+	   }
+	  
+ 
+   }
+}

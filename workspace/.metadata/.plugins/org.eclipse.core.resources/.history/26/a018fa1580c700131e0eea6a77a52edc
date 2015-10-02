@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+
+public class finalpractice 
+{
+
+	public static void main(String[] args) 
+	{
+		String games[] = new String[10];
+		Scanner oscan = new Scanner(System.in);
+		boolean valid = false;
+		String name;
+		int location = 0;
+		
+		for(int icount = 0; icount<games.length; icount++)
+		{
+			games[icount] = oscan.nextLine();
+		}
+		
+		System.out.println("Search for team:");
+		name = oscan.nextLine();
+		for(int icount = 0; icount<games.length; icount++)
+		{
+			if(name == games[icount])
+			{
+				valid = true;
+				location = icount;
+			}
+		}
+		if(valid == true)
+		{
+			System.out.println(games[location]);
+		}
+	}
+
+}

@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-40,0,0,2,105"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="190" y="10" width="420" height="290"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="txtRecord" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="txtteam1" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtteam2" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtteam3" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtteam4" alignment="0" pref="88" max="32767" attributes="0"/>
+                              <Component id="txtteam5" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtteam6" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtteam7" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtteam8" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtteam9" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtteam10" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="33" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="txtwins" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins1" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins2" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins4" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins5" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins6" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins7" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins8" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins9" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins10" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="txtlosses" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses1" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses2" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses4" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses5" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses6" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses7" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses8" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses9" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses10" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="txtstatus" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtstatus1" max="32767" attributes="0"/>
+                      <Component id="txtstatus2" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtstatus3" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtstatus4" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtstatus5" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtstatus6" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtstatus7" alignment="0" pref="100" max="32767" attributes="0"/>
+                      <Component id="txtstatus8" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtstatus9" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtstatus10" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txtRecord" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtstatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtteam1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtstatus1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtteam2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtstatus2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtteam3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtstatus3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtteam4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtstatus4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtteam5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtstatus5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtteam6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtstatus6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtteam7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtstatus7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtteam8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtstatus8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtteam9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtstatus9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins9" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtteam10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtstatus10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtlosses10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtwins10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="43" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="txtstatus">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Status"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtlosses">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Losses"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtwins">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Wins"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtRecord">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Record"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtteam1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtteam2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="           "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtteam3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="             "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtteam4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="                   "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtteam5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="                   "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtteam6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="               "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtteam7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="               "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtteam8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="              "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtteam9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="                 "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtteam10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="               "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtstatus1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="       "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtstatus2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="     "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtstatus3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="          "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtstatus4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="         "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtstatus5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="           "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtstatus6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="          "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtstatus7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="              "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtstatus8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="           "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtstatus9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="           "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtstatus10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="       "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtlosses1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtlosses2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtlosses3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtlosses4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtlosses5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtlosses6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtlosses7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtlosses8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtlosses9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtlosses10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtwins1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtwins2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtwins3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtwins4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtwins5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtwins6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtwins7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtwins8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtwins9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtwins10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="      "/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="10" width="160" height="260"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="txtconference" min="-2" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="100" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="29" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                  <Component id="txtconference" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" pref="220" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="txtconference">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Conference Teams"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JList" name="listconference">
+              <Properties>
+                <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                  <StringArray count="10">
+                    <StringItem index="0" value="BYU"/>
+                    <StringItem index="1" value="Gonzaga"/>
+                    <StringItem index="2" value="Loyola"/>
+                    <StringItem index="3" value="St. Marys"/>
+                    <StringItem index="4" value="Pepperdine"/>
+                    <StringItem index="5" value="San Francisco"/>
+                    <StringItem index="6" value="San Diego"/>
+                    <StringItem index="7" value="Portland"/>
+                    <StringItem index="8" value="Pacific"/>
+                    <StringItem index="9" value="Santa Clara"/>
+                  </StringArray>
+                </Property>
+                <Property name="selectionMode" type="int" value="0"/>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="280" width="160" height="180"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" min="-2" pref="97" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="txtnonconference" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="17" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="txtnonconference" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" pref="130" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JList" name="listnonconference">
+              <Properties>
+                <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                  <StringArray count="6">
+                    <StringItem index="0" value="Arizona"/>
+                    <StringItem index="1" value="Florida"/>
+                    <StringItem index="2" value="Memphis"/>
+                    <StringItem index="3" value="Stanford"/>
+                    <StringItem index="4" value="Dayton"/>
+                    <StringItem index="5" value="Texas"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="txtnonconference">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Non-Conference Teams"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnplay">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Play"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnplayActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="410" y="330" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnreset">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnresetActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="410" y="380" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnquit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnquitActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="510" y="350" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="cbhometeam">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Home Team +5"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="230" y="380" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>

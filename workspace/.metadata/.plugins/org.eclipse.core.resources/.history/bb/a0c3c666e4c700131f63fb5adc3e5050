@@ -1,0 +1,26 @@
+
+
+
+/******************************************************
+ * Greg Anderson   *
+ * Sample test code     *
+ ******************************************************/
+ 
+import java.util.Scanner;
+ 
+ 
+public class finalprobs
+{
+   public static void main(String[] args)
+   {
+  
+  int iNum1 = 10;
+  int iNum2 = 20;
+  int iSum;
+ 
+  iSum = iNum1 + iNum2;
+  
+  System.out.println(iSum);
+ 
+   }
+}

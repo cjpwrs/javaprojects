@@ -1,0 +1,20 @@
+import java.util.*;
+public class finalprobs {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+		String sName;
+		Scanner scanInput = new Scanner(System.in);
+
+		System.out.println("Enter the name:");
+		sName = scanInput.nextLine();
+
+		System.out.println( sName );
+	}
+
+}

@@ -1,0 +1,24 @@
+
+
+
+/******************************************************
+ * Greg Anderson   *
+ * Sample test code     *
+ ******************************************************/
+ 
+import java.util.Scanner;
+ 
+ 
+public class finalprobs
+{
+   public static void main(String[] args)
+   {
+  int iCount;
+	   for (iCount = 0; iCount < 3; iCount++) ;
+	   {
+	      System.out.println("Why can't we just have salad?");
+	      iCount++;
+	   }
+ 
+   }
+}

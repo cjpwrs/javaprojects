@@ -1,0 +1,34 @@
+
+
+
+/******************************************************
+ * Greg Anderson   *
+ * Sample test code     *
+ ******************************************************/
+ 
+import java.util.Scanner;
+ 
+ 
+public class finalprobs
+{
+   public static void main(String[] args)
+   {
+  
+	   
+	    
+			   
+			   int iCount = 10;
+			   boolean bPrint = false;
+			                          
+			   if ((iCount == 10) && (bPrint == true))
+			               System.out.println("Red Fish");
+			   else if ((iCount == 5) && (bPrint == false ))
+			               System.out.println("Blue Fish");
+			   else if ((iCount == 10) && (bPrint == false))
+			               System.out.println("One Fish");
+			   else
+			               System.out.println("Two Fish");
+	  
+ 
+   }
+}

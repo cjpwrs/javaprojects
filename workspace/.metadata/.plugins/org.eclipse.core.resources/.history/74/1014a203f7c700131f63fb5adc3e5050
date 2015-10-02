@@ -1,0 +1,179 @@
+import java.util.*;
+class Person
+{
+	protected String FirstName;
+	protected String LastName;
+	
+	void setFirstName(String Fname)
+	{
+		this.FirstName = Fname;
+	}
+	void setLastName(String Lname)
+	{
+		this.LastName = Lname;
+	}
+	String getFirstName()
+	{
+		return this.FirstName;
+	}
+	String getLastName()
+	{
+		return this.LastName;
+	}
+	
+	//Constructor
+	Person(String firstname, String lastname)
+	{
+		this.FirstName = firstname;
+		this.LastName = lastname;
+	}
+}
+
+class Student extends Person
+{
+	private double FinalScore;
+	private String LetterGrade;
+	private int HomeworkAverage;
+	private int QuizAverage;
+	private int MidtermExam;
+	private int FinalExam;
+	private int id;
+	
+	//setters
+	void setFinalScore(int Finalscore)
+	{
+		this.FinalScore = Finalscore;
+	}
+	void setLetterGrade()
+	{
+		
+	}
+	void setHomeworkAverage()
+	{
+		
+	}
+	void setQuizAverage()
+	{
+		
+	}
+	void setMidtermExam()
+	{
+		
+	}
+	void setFinalExam()
+	{
+		
+	}
+	void setid()
+	{
+		
+	}
+	
+	//getters
+	double getFinalScore()
+	{
+		return this.FinalScore;
+	}
+	int getHomeworkAverage()
+	{
+		return this.HomeworkAverage;
+	}
+	int getQuizAverage()
+	{
+		return this.QuizAverage;
+	}
+	int getMidtermExam()
+	{
+		return this.MidtermExam;
+	}
+	int getFinalExam()
+	{
+		return this.FinalExam;
+	}
+	int getid()
+	{
+		return this.id;
+	}
+	
+	Student(int id, String firstname, String lastname) 
+		{
+			super(firstname, lastname);
+			this.id = id;
+			//setFirstName(firstname);
+			//setLastName(lastname);
+		}
+	Student(int id, String firstname, String lastname, int homework, int quiz, int midterm, int finalexam) 
+	{
+		super(firstname, lastname);
+		this.id = id;
+		setFirstName(firstname);
+		setLastName(lastname);
+		this.HomeworkAverage = homework;
+		this.QuizAverage = quiz;
+		this.MidtermExam = midterm;
+		this.FinalExam = finalexam;
+		
+	}
+	
+	
+}
+public class Grader 
+{
+
+	
+	public static void main(String[] args) 
+	{
+		int homeave;
+		int quizave;
+		int midterm;
+		int finalexam;
+		int id;
+		String fname;
+		String lname;
+		Scanner oscan = new Scanner(System.in);
+		Student disney[]= new Student[3];
+		//disney[1] = new Student(0, "Minney", "Mouse");
+		//disney[2] = new Student(1, "")
+		
+		for(int icount1 = 0; icount1 < disney.length; icount1++)
+		//this will loop through all the students
+		{
+			System.out.println("Enter the Student's ID:");
+			id = oscan.nextInt();
+			oscan.nextLine();
+			System.out.println("Enter the Student's First Name:");
+			fname = oscan.nextLine();
+			System.out.println("Enter the Student's Last Name:");
+			lname = oscan.nextLine();
+			//receive input from the user
+			for(int icount2 = 0; icount2 <4; icount2++)
+			//this will loop through the different scores
+			{
+				switch(icount2)
+				{
+					case 0:
+					System.out.println("Enter the Homework Average:");
+					homeave = oscan.nextInt();
+					break;
+					case 1:
+					System.out.println("Enter the Quiz Average:");
+					homeave = oscan.nextInt();
+					break;
+					case 2:
+					System.out.println("Enter the Midterm Score:");
+					homeave = oscan.nextInt();
+					break;
+					case 3:
+					System.out.println("Enter the Final Score:");
+					homeave = oscan.nextInt();
+					break;
+						
+					
+				}
+			}
+		}
+
+	}
+
+
+}

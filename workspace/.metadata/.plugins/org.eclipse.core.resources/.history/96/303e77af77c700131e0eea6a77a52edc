@@ -1,0 +1,107 @@
+import java.util.*;
+
+class game
+{
+	String name;
+	int pointsfor;
+	int pointsagainst;
+	
+	void setname(String name)
+	{
+		this.name = name;
+	}
+	void  setpointsfor(int pointsfor)
+	{
+		this.pointsfor = pointsfor;
+	}
+	void setpointsagainst(int pointsagainst)
+	{
+		this.pointsagainst=pointsagainst;
+	}
+	String getname()
+	{
+		return this.name;
+	}
+	int getpointsfor()
+	{
+		return this.pointsfor;
+	}
+	int getpointsagainst()
+	{
+		return this.pointsagainst;
+	}
+	game(String name, int pointsfor, int pointsagainst)
+	{
+		this.name = name;
+		this.pointsfor = pointsfor;
+		this.pointsagainst = pointsagainst;
+	}
+}
+
+class basketball extends game
+{
+	String tourstat;
+	double winloss;
+	
+	void setwinloss(int pointsfor, int pointsagainst)
+	{
+		this.winloss = (double)(pointsfor/(pointsfor+pointsagainst));
+	}
+	void settourstat(int pointsfor)
+	{
+		if(pointsfor >5)
+		{
+			this.tourstat = "Good Job";
+		}
+		else
+		{
+			this.tourstat = "You Suck";
+		}
+	}
+	double getwinloss()
+	{
+		return this.winloss;
+	}
+	String gettourstat()
+	{
+		return this.tourstat;
+	}
+
+	basketball(String name, int pointsfor, int pointsagainst) 
+	{
+		super(name, pointsfor, pointsagainst);
+		
+		settourstat(pointsfor);
+	}
+	
+}
+
+class midtermpractice
+{
+	public static void main(String[] args)
+	{
+		String sname;
+		int pointsf;
+		int pointsa;
+		double winloss;
+		String stat;
+		Scanner oscan = new Scanner(System.in);
+		basketball abask[] = new basketball[3];
+		Random rdmgenerator = new Random();
+		
+		for(int icount = 0; icount<abask.length; icount++)
+		{
+			System.out.println("Team name:");
+			sname = oscan.nextLine();
+			pointsf = rdmgenerator.nextInt(10);
+			pointsa = rdmgenerator.nextInt(10);
+			abask[icount] = new basketball(sname, pointsf, pointsa);
+		}
+		for(int icount = 0; icount<abask.length; icount++)
+		{
+			System.out.println(abask[icount].getname());
+			System.out.println(abask[icount].gettourstat());
+		}
+		
+	}
+}

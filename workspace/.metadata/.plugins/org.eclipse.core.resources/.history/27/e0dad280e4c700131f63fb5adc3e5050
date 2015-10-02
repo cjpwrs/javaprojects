@@ -1,0 +1,29 @@
+
+
+
+/******************************************************
+ * Greg Anderson   *
+ * Sample test code     *
+ ******************************************************/
+ 
+import java.util.Scanner;
+ 
+ 
+public class finalprobs
+{
+   public static void main(String[] args)
+   {
+  
+	   int iCount = 2;
+
+	   if (iCount >= 1)
+	   {
+	      System.out.println(iCount++);
+	   }
+	   else
+	   {
+	      System.out.println(--iCount);
+	   }
+ 
+   }
+}

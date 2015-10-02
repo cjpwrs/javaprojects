@@ -1,0 +1,25 @@
+
+
+
+/******************************************************
+ * Greg Anderson   *
+ * Sample test code     *
+ ******************************************************/
+ 
+import java.util.Scanner;
+ 
+ 
+public class finalprobs
+{
+   public static void main(String[] args)
+   {
+  
+	  String sname = "Snoopy";
+	  if(sname.equals("Snoopy"))
+	  {
+		  System.out.println("I found you Snoopy");
+	  }
+	  
+ 
+   }
+}
